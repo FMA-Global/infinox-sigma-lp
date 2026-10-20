@@ -90,24 +90,24 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding-top: 61px;
-      padding-bottom: 32px;
+      padding-top: 32px;
+      padding-bottom: 16px;
       flex-shrink: 0;
     }
 
     .logo {
-      width: 202px;
-      height: 34px;
-      margin-bottom: 20px;
+      width: 160px;
+      height: 27px;
+      margin-bottom: 12px;
     }
 
     .hero-text {
       text-align: center;
       font-family: 'Google Sans Flex', sans-serif;
       font-weight: 600;
-      font-size: 18px;
-      line-height: 1.4;
-      margin-bottom: 20px;
+      font-size: 15px;
+      line-height: 1.3;
+      margin-bottom: 12px;
     }
 
     .hero-text .gradient-text {
@@ -146,8 +146,8 @@
       z-index: 2;
       flex: 1;
       background: linear-gradient(108.96deg, #000 0%, #2A0000 71.64%, #5A2F13 100%);
-      border-radius: 32px 32px 0 0;
-      padding: 40px 24px;
+      border-radius: 24px 24px 0 0;
+      padding: 24px 20px 16px;
       box-shadow: 0px -4px 12px rgba(0,0,0,0.45);
       display: flex;
       flex-direction: column;
@@ -169,9 +169,9 @@
       position: relative;
       z-index: 2;
       display: flex;
-      gap: 16px;
+      gap: 12px;
       align-items: center;
-      padding: 24px 0;
+      padding: 14px 0;
       border-bottom: 1px solid rgba(128,128,128,0.4);
     }
 
@@ -186,9 +186,9 @@
     /* Photo */
     .photo-wrapper {
       flex-shrink: 0;
-      width: 72px;
-      height: 72px;
-      border-radius: 12px;
+      width: 56px;
+      height: 56px;
+      border-radius: 10px;
       overflow: hidden;
     }
 
@@ -203,7 +203,7 @@
     .card-info {
       display: flex;
       flex-direction: column;
-      gap: 16px;
+      gap: 10px;
       flex: 1;
       min-width: 0;
     }
@@ -217,7 +217,7 @@
     .card-name {
       font-family: 'Google Sans Flex', sans-serif;
       font-weight: 600;
-      font-size: 20px;
+      font-size: 16px;
       color: #fff;
       line-height: 1.2;
     }
@@ -225,10 +225,10 @@
     .card-title {
       font-family: 'IBM Plex Mono', monospace;
       font-weight: 600;
-      font-size: 14px;
+      font-size: 11px;
       color: #f2f2f2;
       opacity: 0.8;
-      line-height: 1.3;
+      line-height: 1.2;
     }
 
     /* Action buttons */
@@ -242,15 +242,15 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 6px;
-      padding: 11px 16px;
+      gap: 4px;
+      padding: 8px 10px;
       background: rgba(255,255,255,0.12);
       border-radius: 10px;
       text-decoration: none;
       color: #fff;
       font-family: 'Google Sans Flex', sans-serif;
       font-weight: 500;
-      font-size: 14px;
+      font-size: 12px;
       transition: background 0.2s, transform 0.15s;
       white-space: nowrap;
     }
@@ -264,8 +264,8 @@
     }
 
     .action-btn svg {
-      width: 16px;
-      height: 16px;
+      width: 14px;
+      height: 14px;
       flex-shrink: 0;
     }
 
@@ -274,14 +274,15 @@
       position: relative;
       z-index: 2;
       text-align: center;
-      padding-top: 24px;
+      padding-top: 12px;
+      padding-bottom: 12px;
       margin-top: auto;
     }
 
     .footer a {
       font-family: 'Google Sans Flex', sans-serif;
       font-weight: 500;
-      font-size: 14px;
+      font-size: 11px;
       color: #fff;
       opacity: 0.4;
       text-decoration: none;
@@ -316,6 +317,7 @@
     .contact-card:nth-child(2) { animation: fadeInUp 0.5s ease-out 0.4s both; }
     .contact-card:nth-child(3) { animation: fadeInUp 0.5s ease-out 0.5s both; }
     .contact-card:nth-child(4) { animation: fadeInUp 0.5s ease-out 0.6s both; }
+    .contact-card:nth-child(5) { animation: fadeInUp 0.5s ease-out 0.7s both; }
 
     /* Desktop adjustments */
     @media (min-width: 431px) {
@@ -343,9 +345,8 @@
       <svg class="logo" width="202" height="34" viewBox="0 0 202 34" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_logo)"><path d="M145.259 28.856C146.762 29.5619 148.435 29.9575 150.201 29.9575C151.968 29.9575 153.641 29.5605 155.144 28.856L150.201 21.3673L145.259 28.856Z" fill="white"/><path d="M150.201 0C140.355 0 132.375 8.07915 132.375 18.0467C132.375 24.9637 136.22 30.971 141.863 34L145.259 28.856C141.231 26.9647 138.436 22.837 138.436 18.0467C138.436 11.469 143.704 6.13588 150.201 6.13588C156.699 6.13588 161.967 11.469 161.967 18.0467C161.967 22.837 159.172 26.9647 155.144 28.856L158.54 34C164.183 30.971 168.028 24.9637 168.028 18.0467C168.028 8.07915 160.047 0 150.201 0Z" fill="white"/><path d="M0 0.742081H6.091V33.948H0V0.742081Z" fill="white"/><path d="M52.0124 0.742081H73.8023V6.43473H58.1049V14.4994H72.6314V20.1921H58.1049V33.9495H52.0138V0.742081H52.0124Z" fill="white"/><path d="M81.7672 0.742081H87.8582V33.948H81.7672V0.742081Z" fill="white"/><path d="M182.319 16.8701L171.776 0.742081H179.039L186.069 11.6524H187.006L194.035 0.742081H201.298L190.755 16.8701L202.001 33.948H194.738L187.007 22.0892H186.07L178.339 33.948H171.076L182.322 16.8701H182.319Z" fill="white"/><path d="M15.4635 0.742081H16.5331L36.5503 20.862V0.742081H42.6427V33.948H41.5731L21.5545 13.8281V33.948H15.4635V0.742081Z" fill="white"/><path d="M97.2307 0.742081H98.3003L118.318 20.862V0.742081H124.41V33.948H123.34L103.323 13.8281V33.948H97.2322V0.742081H97.2307Z" fill="white"/></g><defs><clipPath id="clip0_logo"><rect width="202" height="34" fill="white"/></clipPath></defs></svg>
       <div class="hero-text">
         <div>Great to meet you at</div>
-        <div class="gradient-text">SiGMA World</div>
+        <div style="color:#fff;">SiGMA World</div>
       </div>
-      <a href="https://www.infinox.com" target="_blank" rel="noopener" class="visit-btn">Visit INFINOX</a>
     </header>
 
     <!-- Cards -->
@@ -443,9 +444,34 @@
         </div>
       </div>
 
+      
+      <!-- Juliana Alonso -->
+      <div class="contact-card">
+        <div class="photo-wrapper">
+          <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCACQAJADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD6fooooAKKKytd1y10eHMxLzsMpCh+Y+59B70m1FXY0m3ZGoxCqWYgKOSScACuc1XxjptkSkBa8lHaL7o/4Ef6Zrhdc12+1dyLiTZBn5YE4UfX1P1rL21g69/hNlRtudLfeNdUuCRbCG1Q9Nq7m/M/4Vj3Gq6ldE+ffXL57GQgfkKqKtSBaz5m9yuVLYTDMcszMfc5pwDL90kH2OKy9b1/T9FQfapC0zD5YY+Xb8O341w+p+PNQnLCzSO1jHoN7fiTx+VK5Si2erwapqFrjyL64THbzCR+RrStPHOpWxAuBBdL/tDa35j/AAr5u1LxVqMgJlv7hjnAVXI5/D+VZI8T6pDlkkcqP7xz+pqlKXQTgup9maV450m9dYrh2spjxib7hPsw4/PFdQrBlDKQVIyCDkEV8d+E/F5vwIrwd8bgc4r1bw34j1DRGAtpfMtc5aCQ5Q/T+6fpWkavRmcqfY9vorH8O+IbLXYM2zFJ1GXgc/Mvv7j3FbFbJ32MbWClpKKYBRRWP4n1qPRNP81gGuJDshjP8Tep9h1NJuyuxpXdkN8Ra0NOj8q3Ae7ccA8hB6n+grzq9Ek8ryzs0kjnLMxyTWlHMZ33zyb55PmYnqTTLmMAV4lXFSqT8j1qVBQh5mGyYPSkK1akXniomWuqm7mFRWYxRXLeNfFC6PD9mtSrXrjOT0jHqfetjxDq0ejabJcSEGTGI1P8TV4hd3UupX8k88hZ3JZmNaERV9WPmmedpbi5kZiTl5GOWY+lUrqZiuT8qKeFHb2+tTSP5hUL8kajKj+6O7fU9qqBftU3HyxIOntTS6lN9BILbcPNkXcTwidqlm8L6xqMfmpGfKH3VXt74/pXYeC9DOqXkZdMRgA47D0H+fWvYLLS4rWEIqrgdawqYhxeh2UcGqkbyPm6w0a/0NhM8Lhc8nFeseE9Yg1S3ZEf96mNyHqtdlqNlBLGyyRqVPUEV4x4jil8K+J4buzZltpGwQDwQeop0q/tHZ7meIwvsldbHrFvLNaXCT2sjRSxnKupwQa9L8F+N7TXLt9LumWHWIk8wx9BMg6sv07jt16V5dYTC6s45V6MoNcs0stt8SLGe2do5olLK6nkGuunKzPPnG59V0Vk+GtYj1nTlmACzp8sqD+FvUexrWroWpg1Ya7rGjPIwVFBZmY4AA6k14B468bW17qbXxlBtl+S3XP8IPX6nrXW/tH+JX0L4eT2drL5d5qjfZlIOCIwMyEfhhf+BV8reGtRWXUI31GQvDDyAx4zXPWl0Lg7M+hfBjXWs3Y1OctDahcKrcZ966O+vrVXKGdM+ma8x0/XNR8R6cbXQSYIVO3zAOw9K3rHwYsdsr3t1NJcYyWLE814Tj792z14yfLaKudGzKxypBHtUbDvWXYWE2nzFRKZIj6mrmqTeTpl1LnG2Njn8K9Gnojlnqzyv4k6obq4WEH5AflHr6f41xyFQTH1xgvj+I9l/wA/0o13UGudRZ1+bsg9B61jyXYjUxxndIec+/TP9BWsU7A2kal1NvYxoQTnLsPX0HtVu2tiwigUEtK3OKzdNjyw3EccsfU10WkGyF+jX1yIEPAPfNObsrIcFzO7PaPAei/YrBGkUB2Ga6KfALAflXnOiXuqM8aafraT24+YxlRnH613bz7Lbz5emK82Ts7HtU3poMu4sRkmvI/i2mNHMhUFo3BFdzqnihUQmOGacekS5rzn4iasmp+H2jFvNDIZkyJBg45zWtCL5kznxU04NHY+AJTceGrZm5IXafwrMmGfiHAP+mR/nV74ZoV8NRg57fy/+tVVxn4hxf8AXI/zr0YHiyO6tPEf/CK39vfyEmzLeXcqO8Z6n6jr+Fe1xusiK8bB0YBlZTkEHoRXzZ8Qh/xI3x616V8AvER1rwStlO+660t/s5yeTGRmM/llf+A1vBmU0eIftO68dS+JDaaHzb6VbJDgHjzH+d/0KD8K8cjWWWby7dCQe46Cul8bzya74+8SXoPE19MwPtuKr+gFQafdxWtmtusY83cAxI9+TXPKSuyEjr/AE/iOwsRFp1iWjY8O5wv1969M8PT60tw66vtweRt6UzQPEml2ujRIjK0wToMZrAvfH8puGVbCcqp67O1eUuapNvlPVXLTgryO/LZPNcx8R742XhedgcBzsJFS6D4gh1VOAUk7qRg1z3xbuN+l2VtxtebewPfAOP8APtXfGNkYc3NLQ8XuZJZGKfdz2HX8agjTYwVRlyavTt5dpvA+aRi24+n+f50mlMlrfLPOvmPGpmKnuf4R9M1teyJSu7GzDbGCZLROZlA80+jHkj8OK9H0jwELvTg9wWV8Aja2CvqPxrO+GXhia7nXVdUU7GbzEDdZCTnP0717XI0MMQI2g4rhnVafuvY9Wjhk43ktzlNF0Bre8Sd4EhVEEa7e4HT3P41q+Kv+RalWMfMDjIqwboyjEYJA5yaj1na2iupYEEHvWF+aV2dXs+WNkeVzrq8d4u+fybDYSfL256cAcZzn1rjdf1C/vJrOyvipcEylgOozhR/OvY7SCK6s1aRcjbzz1ryrxNCkvxDEMf3BBGAPTJNddKak7W2PNxFJwje+56f4Jg8jQoweOtY45+Iae0X9a6rRo/L02IAYyM1ygdR8Q/mIA8rv9a64HnS3N/xjYTajpbQ24BcmpfgTYajoHjGWK4AFrfW7RMP9tfmU/wDoQ/GtYSoejL+dXNGuRb6vZzBh8kyk89s81onYmSufMSW0sF1LJMSHkJYn1yc1l3RZbpggGK6Txg7W92YmwHVypx7HFRafpiXChmx061zKLTuyWr6Im8Ly3OnSifyRKrde+K9K0q7tb9NwjTf/ABDFcLoC3Fnqn2ecboX+7kV1cOnPa6ks1ucRt1FUo63LTaVjprOyt4pvNiUIx9K4/wCKW+W5tIx90xEL9WbBJ/DA/E119vJg81gePLTz4rS5GSY9yEfgSP1p1NFculrKx5Dfusl0kcY/dx9u2B0q34DS3uPHUEN8geJwVAPTcBkf1qOC2L3Nw7dEQZ9qj0uM23i2JlJDCTKn0pN3i15GsdJJ+Z9PQ2qiJFhO3AwMdBSIsRlEdzcAsOiFsZqhoeoi5s0z/rVGGFWNWtI7y32yqpYcqxHQ15K3sz6CL5loWNRs4blTtmdFI+YRNjP5VyOsLd7Ft43/ANHbliSSxFV7+2NupAmkhYe+5T9PSufvpbtrhU+3Fm6YXPA/OuiML6oKqtC50E+rxWWnlQT8gwfavM/Ddw+r+Obi4mBy8gVB6KMAD8q0PF+rxxmHSbdt0jDdKc8hevPuf5CmeDLbyfGEeRyzKa6KUeVX7njYmq6jS6I9tiASBUXoBiuR8QeFnv8AVRfW9y8UoGMrXXqflFLXSnY4GrnCDw1qy/d1OX8aRdE1yKRSmpN8pB6V3lNVN8qqB94gVXMTymvq/wAPNEuNWu5JbKNmMrNkrnqc/wBawfEPhPTtO02V7aBUKjjAxXq+vuLa6VzwJV/Uf5Fef+M9QV9OlhRWZ3GAAK8ObqQxDi31PWpqM6Sduh5dDFEQjsBuXvXFeKfF13Z6o8VqRsUd67aSynt7RpJWWJAD80hCj8zXjXiGJn1OdxPC4LdVfNe3TalseXUjKO51/h7xrfXN/DA6cO2CQa9O1JftelMpxuC7h9a+fNNvv7LuFuI9ssqjgEcA0al4l1PVbkSXt3KYYzny1bag9BtHX8aqcOZWFCfK7ndy2ai0vZIl+VkB/U5Fc3qUgtp7TU1UvGjr5u3nHHf8QaseDtd8zzbC8b/Wj91n19DUeqyyab5gCLIgGGRujKf6g/zrnUXGVmdTknG6PXPD+q2uoWcd5plzGzADcuensR2rqLDWopW8q5IjkHQN0P0r5S+2tDc/aNNkmtif7shBH4j+VX/+Ev11Y9n2+Rl/2gD/AEqJYG+zNaeY8u6PqPU3s3hJZU59q8c8a+LLHSJZY7MJLeDgRjoD2Lf4da81n8T65OpSTVLvYewkwP0rKEUksgZtxzzuPf3zWlLCcjvJk18w9orQVjovDDS3+ozzXLs88hLMx6kkV6P4SYXHiqOeMExo4XI9uv4VwfhSFomkmkJVApxu44A64rM/4SC6hvWNhNJCEJCsjFSfc4q3Fzlocykox1PqzcBRvr5qg8eeJo8AaxcsB03bW/mKvxfEnxNHjN8kn+/Ah/pWvs2ZcyPondxV7w/D9q12whxkNMpP0HJ/lXzzZ/FnW4T/AKVBZXKHH8BQj8Qa+h/gZqNv4o3azbKVSBDG8ZOTHKeNv5ZOfQ0lBpg5aHpXiqHzNFnlVDJJbqZQo6kAcgfhn8q+Xvi748lFrDp+js1u8g3zSrw23soPbPJ/KvrivjH9ovwxceHfHU02z/iW6gvnWjgcADAaP6qf0IqZ4WnOoqrWpUMRONN009Dy681O8vm3XtzPcOvAMrlsD8aqkk8mkH+sf8DSkelbpW2Mm77kMh61WjLSTjccqvOD0qzPwKitVyGbv0piLCZDhlbaQd2e+a0r7WDc2f77AnXg56OPr61nADFQXalo2+lS4p7lKTWxGCO3AprfWiPlRTj+NWQREZ55NWbBrhZh5U4jU9ctgD3NRVE479frSauC0N+5u/KspYYpXkaUYeVict7DPQfzrHEffoanzvUHPWmtkA7QCfrSSsU3cSKTPB4IqbtVRUccnBY+9TIwKZNUIJMYOemK+5v2fPCb+E/hrYJdRmPUNQ/065BHKlwNqH6IF/Emvmv9nvwC3jXxpFcXkW7RNLZZ7okfLI+cpF+JGT/sg+or7eoEwrlPiZ4LsvHfhW40m8Ijm/1lrcYyYJQOG+nYjuCfaurpaBH5zeItFv8Aw9rt3pWr27W99bMUkQ9PYg91I5B7g1nqea+4PjL8LrL4haWssLR2mvWqkW10Rww/55yY6qfXqp5HcH4s8SaLqPhvWp9M1m0ktL2A4eNx+RB6FT2I4NA7mbeAbMiq8cOQCflPr3q1ccwVFb8wpnqOKQyZF4HJJ9TSSLkU5aVuRQBmx8cehxUlNxiVx706mIMUxhTxxSGgCa1OYsenFPIGahtjiUg9CKsHrSGMb1rS8G+HNS8WeJINE0aHzbu5bIJ+7Gv8Tseyjqfy6kVN4U8Nar4s1uHStBtHubuTk44WNe7u3RVHr+WTxX218I/hrpvw70QwwFbnVrgA3l6VwZCP4VH8KDsO/U80xM2fh74Q0/wP4WtNF0wbliG+aZhhp5T96Rvr2HYADtXS0lLQISilooAK5D4jfD7QvH2li11u3InjB+z3kOFmgP8AsnuPVTwf1rrqWgD4Z+Jfwg8SeCFlmkhOpaOpO2+tUJCj/ponVD+Y9680tujDt1FfpgQCCDyDwa8x8a/BDwb4oeS4SybSb98k3Gn4jDH1aPGw/kD70DufEgp3avcPEv7N/iewZn0G+sNWhH3Vdvs8v5NlT/31XnerfDbxnpJb7d4Y1VFXq8cBlX80yKQzhpRiY+4zSVc1DTry3nUT2dzE2CCHhZT+opLfTL+5YLbWN3Mx7RwOx/QUxFSkIzXZ6P8AC7xxq5X7D4X1Qq3R5ovJX83Ir0rwv+zN4jvWR/EWp2OlQn70cObmX9MKPzNAHgBbYQ5xwa9e+GnwU8R+M2hu7yNtI0VsN9quEIeVf+mcZ5P1OB9a+kvAvwX8HeEHjuLfT/7Q1FORd6hiVlPqq42r+Az716T9aAuc34F8F6J4I0gafoFoIlbBmmf5pZ2H8Tt3+nQdgK6SiigQlFFLQB//2Q==" alt="Juliana Alonso" loading="lazy">
+        </div>
+        <div class="card-info">
+          <div class="card-text">
+            <div class="card-name">Juliana Alonso</div>
+            <div class="card-title">Latam Manager</div>
+          </div>
+          <div class="card-actions">
+            <a href="https://wa.me/59897590225?text=Hi%20Juliana%2C%20we%20met%20at%20SiGMA%20World%20Rome%20%28INFINOX%2C%20Stand%20H7-7405%29.%20I%27d%20love%20to%20continue%20our%20conversation%20about%20partnership%20opportunities.%20Looking%20forward%20to%20hearing%20from%20you%21" target="_blank" rel="noopener" class="action-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.832-1.438A9.955 9.955 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18a8 8 0 01-4.243-1.214l-.252-.157-2.625.78.78-2.625-.157-.252A8 8 0 1112 20z"/></svg>
+              WhatsApp
+            </a>
+            <a href="mailto:juliana.alonso@infinox.com" class="action-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              Email
+            </a>
+          </div>
+        </div>
+      </div>
+
       <!-- Footer -->
       <div class="footer">
-        <a href="https://www.infinox.com/int/legal/risk-warning" target="_blank" rel="noopener">Aviso de risco e política de privacidade</a>
+        <a href="https://infinox.com/" target="_blank" rel="noopener" style="display:block;opacity:0.7;margin-bottom:12px;font-size:13px;">Visit INFINOX</a>
+        <a href="https://www.infinox.com/int/legal/risk-warning" target="_blank" rel="noopener">Risk warning · Privacy policy</a>
       </div>
 
     </section>
